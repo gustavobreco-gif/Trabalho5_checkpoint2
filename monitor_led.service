@@ -1,1 +1,31 @@
+# ==============================================================================
+# Unit File do systemd para gerenciamento da aplicação Python na Raspberry Pi.
+# O interpretador /usr/bin/python3 é chamado explicitamente em ExecStart e
+# ExecStop para garantir o carregamento adequado do ambiente e bibliotecas GPIO.
+# ==============================================================================
 
+[Unit]
+Description=Monitoramento GPIO e Blink LED em Python (Linux Embarcado)
+After=multi-user.target
+
+[Service]
+Type=simple
+# Substitua 'pi' pelo usuário da máquina onde será feita a validação
+User=pi
+WorkingDirectory=/home/pi/projeto-embarcados
+
+# Desativa o buffer de saída do Python para logs em tempo real no journalctl
+Environment=PYTHONUNBUFFERED=1
+
+# Inicializa o interpretador Python executando o programa principal
+ExecStart=/usr/bin/python3 /home/pi/projeto-embarcados/monitor_led.py
+
+# Executa um segundo programa Python quando o serviço é parado via systemctl stop
+ExecStop=/usr/bin/python3 /home/pi/projeto-embarcados/parada_led.py
+
+# Reinicia apenas em caso de falha inesperada (não interfere no systemctl stop)
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
