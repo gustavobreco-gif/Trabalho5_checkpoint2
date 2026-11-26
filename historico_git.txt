@@ -1,1 +1,65 @@
+commit 049ac711c438c948775f6cd4b643658ef227f3b9
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 20:41:55 2026 -0300
 
+    Delete evidencias
+
+commit f7189f5e2c0901e49d29314e89bca7865e4bd8f3
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 19:51:38 2026 -0300
+
+    Update monitor_led.service
+
+commit 0742e7f72fd178b5c463872e41871f13a920c570
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 19:51:19 2026 -0300
+
+    Update parada_led.py
+
+commit 34375a15eac1f94174c737bf61af7facaee7b076
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 19:14:25 2026 -0300
+
+    Create evidencias
+
+commit acd7c73857b7f7a0b83e51bf22ed75cdba8828b6
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 19:04:10 2026 -0300
+
+    Create historico_git.txt
+
+commit 9fe6475a9cf51998eb6cef8a8f73bd412809f11a
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 19:03:31 2026 -0300
+
+    Create monitor_led.service
+
+commit 03331f64754f05244c7c5185d76296d1344ffc39
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Wed Nov 25 18:56:16 2026 -0300
+
+    Update monitor_led.py
+
+commit 5f448124ce5ab2872455e1976113bd9eeea8c89d
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Mon Nov 23 09:41:29 2026 -0300
+
+    Create parada_led.py
+
+commit 62e711c12361bcd2f1c80bd8ee3c6c88a925bfac
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Mon Nov 23 09:40:58 2026 -0300
+
+    Create monitor_led.py
+
+commit f9ff8c86655b0beb563c05d3aa15db8cac72b500
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Mon Nov 23 09:40:27 2026 -0300
+
+    Update README.md
+
+commit 8703d7adf64d008504a0647815f604e26d56241f
+Author: gustavobreco-gif <gustavobredacoelho@usp.br>
+Date:   Mon Nov 23 09:37:36 2026 -0300
+
+    Initial commit
